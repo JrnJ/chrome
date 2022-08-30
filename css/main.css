@@ -1,0 +1,48 @@
+* {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #202020;
+}
+
+/* <LearningCard> */
+.cardContainer {
+    margin: 10px;
+}
+
+.card {
+    width: 140px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.learningCard {
+    background-color: #252525;
+    /* height: 100px; */
+    border-radius: 6px;
+    margin-bottom: 6px;
+    border: none;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.learningCard:hover {
+    background-color: #272727;
+}
+
+.learningCard:active {
+    background-color: #292929;
+}
+
+.learningCard span {
+    color: white;
+}
+/* </LearningCard> */
